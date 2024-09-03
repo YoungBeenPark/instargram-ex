@@ -1,4 +1,49 @@
+body{
+  color: white;
+  margin: 0;
+  background-color: black;
+}
 .container {
   display: flex;
   flex-direction: column;
+  
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 0 20px;
+}
+.divider{
+  width: 100vw;
+  height: 1px;
+  background-color: #999;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.material-symbols-outlined {
+  color: white;
+  background-color: black;
+}
+
+input{
+  background-color: #666;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  min-height: 36px;
+  min-width: 268px;
+  padding: 0 20px;
+}
+
+.logo .love{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap : 12px ;
 }
